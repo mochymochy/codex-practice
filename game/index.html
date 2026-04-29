@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>にゃん缶スライダー 〜てんちゃんのお手伝い〜</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>にゃん缶スライダー 〜てんちゃんのお手伝い〜</h1>
+
+      <section class="panel status-panel">
+        <p>ステージ: <span id="stage-number">1</span> / <span id="stage-total">3</span></p>
+        <p>手数: <span id="move-count">0</span></p>
+      </section>
+
+      <section id="clear-message" class="panel clear-message" aria-live="polite"></section>
+
+      <section class="board-wrap panel">
+        <div id="board" class="board" aria-label="ゲーム盤面"></div>
+      </section>
+
+      <section class="controls panel">
+        <div class="buttons-row">
+          <button id="up-btn" class="dir-btn" aria-label="上">↑ 上</button>
+        </div>
+        <div class="buttons-row">
+          <button id="left-btn" class="dir-btn" aria-label="左">← 左</button>
+          <button id="down-btn" class="dir-btn" aria-label="下">↓ 下</button>
+          <button id="right-btn" class="dir-btn" aria-label="右">→ 右</button>
+        </div>
+      </section>
+
+      <section class="panel actions">
+        <button id="reset-btn" class="action-btn">このステージをリセット</button>
+        <button id="next-btn" class="action-btn" disabled>次のステージへ</button>
+      </section>
+
+      <p class="hint">キーボードの矢印キー、または画面の方向ボタンで操作できます。</p>
+    </main>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
