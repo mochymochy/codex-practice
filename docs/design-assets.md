@@ -63,6 +63,12 @@
 - `assets/stages/`：床・壁・ゴールなどステージ構成素材
 - `assets/references/`：制作時に参照するラフ・比較案・補助資料
 
+参考画像として、以下を `assets/references/` に格納して使用する。
+- `assets/references/tenchan_design_sheet.png`
+- `assets/references/cat_can_design_sheet.png`
+- `assets/references/game_screen_mockup.png`
+- `assets/references/ui_design_sheet.png`
+
 ## 7. 今後の進め方
 
 1. PNG素材一覧を作る

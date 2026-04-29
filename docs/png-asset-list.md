@@ -23,9 +23,9 @@
 | 17 | icon_steps.png | assets/ui/ | 手数表示アイコン | 128x128 | 必要 | 低 | - |
 | 18 | nyankan_slider_logo.png | assets/logo/ | メインタイトルロゴ | 横長。例：1200x400 | 必要 | 高 | - |
 | 19 | nyankan_slider_logo_with_subtitle.png | assets/logo/ | サブタイトル入りロゴ | 横長。例：1200x500 | 必要 | 中 | - |
-| 20 | tenchan_design_sheet.png | assets/references/ | てんちゃん設定資料 | 任意 | 不要 | 高 | - |
-| 21 | cat_can_design_sheet.png | assets/references/ | 猫缶デザイン資料 | 任意 | 不要 | 高 | - |
-| 22 | game_screen_mockup.png | assets/references/ | ゲーム画面イメージ | 任意 | 不要 | 高 | - |
-| 23 | ui_design_sheet.png | assets/references/ | UIデザイン資料 | 任意 | 不要 | 高 | - |
+| 20 | tenchan_design_sheet.png | assets/references/ | てんちゃん設定資料 | 任意 | 不要 | 高 | 参考画像として使用 |
+| 21 | cat_can_design_sheet.png | assets/references/ | 猫缶デザイン資料 | 任意 | 不要 | 高 | 参考画像として使用 |
+| 22 | game_screen_mockup.png | assets/references/ | ゲーム画面イメージ | 任意 | 不要 | 高 | 参考画像として使用 |
+| 23 | ui_design_sheet.png | assets/references/ | UIデザイン資料 | 任意 | 不要 | 高 | 参考画像として使用 |
 
 初期プロトタイプでは優先度 高 の素材から作成する。
