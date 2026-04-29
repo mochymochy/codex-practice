@@ -29,3 +29,26 @@
 | 23 | ui_design_sheet.png | assets/references/ | UIデザイン資料 | 任意 | 不要 | 高 | 参考画像として使用 |
 
 初期プロトタイプでは優先度 高 の素材から作成する。
+
+## 初回作成対象のPNG素材
+
+初期プロトタイプでは、まず以下の素材を優先して作成する。
+
+- assets/characters/tenchan/tenchan_front.png
+- assets/characters/tenchan/tenchan_push.png
+- assets/characters/tenchan/tenchan_icon.png
+- assets/items/cat_can.png
+- assets/items/paw_goal.png
+- assets/items/wall.png
+- assets/items/floor.png
+- assets/logo/nyankan_slider_logo.png
+
+## 作成方針
+
+- まずはゲームとして動かすために必要な最小素材だけを作る
+- キャラクター差分やUI差分は後回しにする
+- 正式な見た目は assets/references/ の参考画像を基準にする
+- てんちゃんの表記は必ず「てんちゃん」に統一する
+- ファイル名・フォルダ名では tenchan を使用してよい
+- PNGは背景透過が必要なものと不要なものを分ける
+- 画像の見た目がブレないよう、docs/character-design.md と docs/design-assets.md を参照する
