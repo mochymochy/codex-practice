@@ -1,0 +1,118 @@
+:root {
+  --bg: #fff6ee;
+  --panel: #fffdf9;
+  --line: #e8d5c4;
+  --text: #5b4b45;
+  --floor: #fff2e7;
+  --wall: #7f6a5f;
+  --goal: #ffd6e7;
+  --btn1: #ffd5a5;
+  --btn2: #ffc6d9;
+  --btn3: #c8f1dd;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "Hiragino Maru Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+  color: var(--text);
+  background: linear-gradient(180deg, #fffaf4, #fff2f8);
+}
+
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1 {
+  text-align: center;
+  font-size: clamp(1.2rem, 2.8vw, 1.7rem);
+}
+
+.panel {
+  background: var(--panel);
+  border: 2px solid var(--line);
+  border-radius: 18px;
+  padding: 10px 12px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
+  margin-bottom: 12px;
+}
+
+.status-panel {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.clear-message {
+  min-height: 28px;
+  font-weight: 700;
+  color: #d14c7c;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 4px;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.cell {
+  aspect-ratio: 1 / 1;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(1rem, 4vw, 1.8rem);
+  border: 1px solid #f3d9c8;
+}
+
+.floor { background: var(--floor); }
+.wall { background: var(--wall); border-color: #6d5a51; }
+.goal { background: var(--goal); }
+
+.controls { text-align: center; }
+.buttons-row {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 6px 0;
+}
+
+button {
+  font: inherit;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.dir-btn {
+  min-width: 90px;
+  padding: 10px 14px;
+  background: var(--btn2);
+  color: #6b3552;
+  font-weight: 700;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.action-btn {
+  padding: 10px 16px;
+  background: var(--btn1);
+  color: #6d4a2f;
+  font-weight: 700;
+}
+
+#next-btn { background: var(--btn3); color: #2a634a; }
+#next-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.hint { text-align: center; font-size: 0.95rem; }
